@@ -1,0 +1,30 @@
+{
+  "name": "dotplot",
+  "version": "0.1.0",
+  "description": "A library which provides helpers to draw dotplots.",
+  "main": "lib/dotplot.js",
+  "scripts": {
+    "test": "node test/dotplot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iLambda/dotplot.git"
+  },
+  "keywords": [
+    "dotplot",
+    "graphics",
+    "data",
+    "analysis",
+    "dna",
+    "comparison"
+  ],
+  "author": "iLambda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iLambda/dotplot/issues"
+  },
+  "homepage": "https://github.com/iLambda/dotplot#readme",
+  "dependencies": {
+    "lodash": "^4.6.1"
+  }
+}
