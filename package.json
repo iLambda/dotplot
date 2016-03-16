@@ -4,7 +4,8 @@
   "description": "A library which provides helpers to draw dotplots.",
   "main": "lib/dotplot.js",
   "scripts": {
-    "test": "node test/dotplot.js"
+    "test": "node test/dotplot.js",
+    "browserify": "browserify export.js > dotplot.js && uglifyjs dotplot.js > dotplot.min.js"
   },
   "repository": {
     "type": "git",
